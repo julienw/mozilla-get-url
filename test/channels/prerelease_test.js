@@ -3,7 +3,7 @@ suite('channels/pre_release', function() {
       verifyGet = require('../support/get_suite')(get),
       forEachOS = require('../support/for_each_os');
 
-  var BRANCHES = ['aurora', 'mozilla-central', 'nightly', ''];
+  var BRANCHES = ['aurora', 'mozilla-central', 'nightly', 'mozilla-b2g28_v1_3'];
 
   // firefox operating systems
   BRANCHES.forEach(function(branch) {
